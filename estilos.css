@@ -1,0 +1,22 @@
+h1 {
+    color: #e51616;
+    background-color: blue;
+    font-size: 3em;
+    text-align: right middle; 
+    font-family: 'Courier New', Courier, monospace;
+    height: 6em;
+    width: 7em;
+    padding: 2%;
+
+}
+
+label {
+    color: #ab7979;
+}
+
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
