@@ -1,0 +1,72 @@
+/* Estilos Generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url('celularess.webp') no-repeat center center / cover;
+  transition: background-image 0.5s ease-in-out;
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  max-width: 600px;
+  min-height: 80vh;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* transparente con efecto vidrio */
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 30px;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+}
+
+.competencia {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  margin: 15px 0;
+  border-radius: 50px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.competencia:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.fondo-amarillo {
+  background-color: rgba(255, 193, 7, 0.8);
+}
+
+.fondo-verde {
+  background-color: rgba(76, 175, 80, 0.8);
+}
+

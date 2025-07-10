@@ -1,0 +1,35 @@
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(25, 74, 114);
+}
+
+
+
+.contenedor-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(214, 205, 205);
+  border-radius: 50px;
+}
+
+
+
+.color {
+  padding: 16px;
+  margin: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+}
+
+label, p {
+  margin: 20px;
+}

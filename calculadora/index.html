@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="display">
+      <input type="text" id="resultado" readonly/>
+    </div>
+
+    <div class="botones">
+      
+      <button class="boton clear" id="clear" data-value="C">C</button>
+      <button class="boton" id="retroceso" data-value="←">←</button>
+      <button class="boton operador" id="porcentaje" data-value="%">%</button>
+      <button class="boton operador" id="division" data-value="/">/</button>
+
+      
+      <button class="boton" id="siete" data-value="7">7</button>
+      <button class="boton" id="ocho" data-value="8">8</button>
+      <button class="boton" id="nueve" data-value="9">9</button>
+      <button class="boton operador" id="multiplicacion" data-value="*">*</button>
+
+      <button class="boton" id="cuatro" data-value="4">4</button>
+      <button class="boton" id="cinco" data-value="5">5</button>
+      <button class="boton" id="seis" data-value="6">6</button>
+      <button class="boton operador" id="menos" data-value="-">-</button>
+
+      <button class="boton" id="uno" data-value="1">1</button>
+      <button class="boton" id="dos" data-value="2">2</button>
+      <button class="boton" id="tres" data-value="3">3</button>
+      <button class="boton operador" id="suma" data-value="+">+</button>
+
+      <button class="boton" id="cero" data-value="0">0</button>
+      <button class="boton" id="decimal" data-value=".">.</button>
+      <button class="boton igual" id="igual" data-value="=">=</button>
+    </div>
+  </div>
+  <script src="dom.js"></script>
+</body>
+
+</html>
